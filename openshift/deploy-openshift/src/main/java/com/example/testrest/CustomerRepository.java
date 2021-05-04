@@ -13,6 +13,7 @@ public class CustomerRepository {
     public void init(){
         customerList.add(new Customer(1, "frank"));
         customerList.add(new Customer(2, "john"));
+        customerList.add(new Customer(3, "jubriln"));
     }
     public List<Customer> getData() {
         return customerList;
